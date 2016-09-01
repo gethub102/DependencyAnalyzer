@@ -1,0 +1,17 @@
+﻿Build started 3/7/16 12:35:50 PM.
+     1>Project "C:\Users\wenbinli\Documents\OOD\Proj2\FileMgr\FileMgr.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt FileMgr.cpp FileSystem.cpp
+         FileSystem.cpp
+         FileMgr.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wenbinli\Documents\OOD\Proj2\Debug\FileMgr.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\wenbinli\Documents\OOD\Proj2\Debug\FileMgr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wenbinli\Documents\OOD\Proj2\Debug\FileMgr.lib" /MACHINE:X86 Debug\FileMgr.obj
+         Debug\FileSystem.obj
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+     1>C:\Users\wenbinli\Documents\OOD\Proj2\Debug\FileMgr.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\wenbinli\Documents\OOD\Proj2\FileMgr\FileMgr.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.04

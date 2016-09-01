@@ -1,0 +1,36 @@
+﻿Build started 3/7/16 12:35:44 PM.
+     1>Project "C:\Users\wenbinli\Documents\OOD\Proj2\Parser\Parser.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D TEST_PARSER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\FileMgr\FileSystem.cpp ..\ScopeStack\ScopeStack.cpp ..\SemiExp\SemiExp.cpp ..\Tokenizer\Tokenizer.cpp ..\Utilities\Utilities.cpp AbstractSyntaxTree.cpp ActionsAndRules.cpp ConfigureParser.cpp MetricAnalysis.cpp MetricsExecutive.cpp Parser.cpp
+         Parser.cpp
+         MetricsExecutive.cpp
+         MetricAnalysis.cpp
+         ConfigureParser.cpp
+         ActionsAndRules.cpp
+         AbstractSyntaxTree.cpp
+         Utilities.cpp
+         Tokenizer.cpp
+         SemiExp.cpp
+         ScopeStack.cpp
+         FileSystem.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wenbinli\Documents\OOD\Proj2\Debug\Parser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\wenbinli\Documents\OOD\Proj2\Debug\Parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wenbinli\Documents\OOD\Proj2\Debug\Parser.lib" /MACHINE:X86 Debug\FileSystem.obj
+         Debug\ScopeStack.obj
+         Debug\SemiExp.obj
+         Debug\Tokenizer.obj
+         Debug\Utilities.obj
+         Debug\AbstractSyntaxTree.obj
+         Debug\ActionsAndRules.obj
+         Debug\ConfigureParser.obj
+         Debug\MetricAnalysis.obj
+         Debug\MetricsExecutive.obj
+         Debug\Parser.obj
+     1>Parser.obj : error LNK2005: "class DataStore __cdecl getPath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class DataStore &,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >)" (?getPath@@YA?AVDataStore@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV1@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@@Z) already defined in MetricsExecutive.obj
+     1>Parser.obj : error LNK2005: "void __cdecl searchPatternCommand(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > &,int,char * *)" (?searchPatternCommand@@YAXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@HPAPAD@Z) already defined in MetricsExecutive.obj
+     1>C:\Users\wenbinli\Documents\OOD\Proj2\Debug\Parser.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\wenbinli\Documents\OOD\Proj2\Parser\Parser.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.97
